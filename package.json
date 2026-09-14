@@ -1,0 +1,27 @@
+{
+  "name": "@pipeworx/mcp-keepa",
+  "version": "0.1.0",
+  "description": "Keepa MCP — wraps the Keepa API (keepa.com) for Amazon price + sales-rank HISTORY.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-keepa": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "keepa"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-keepa.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
