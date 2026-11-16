@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-keepa",
-  "version": "0.2.1",
-  "description": "Keepa MCP — wraps the Keepa API (keepa.com) for Amazon price + sales-rank HISTORY.",
+  "version": "0.2.2",
+  "description": "Unofficial Keepa MCP — wraps the Keepa API (keepa.com) for Amazon price + sales-rank HISTORY.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "keepa",
     "gatewaySlug": "keepa",
-    "sourceHash": "v1-a764d1b7a3ce1550725da88555d2c3f125e6703167151d4e9a7e9f74ff684b58",
-    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
+    "sourceHash": "v1-2537c5388129901b7b2f3c75dec956c0ec3d1a2c8fc73600638e3e9a9c62c42d",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }
